@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Spotify Web</title>
+</head>
+<body>
+
+    <!-- wrapper -->
+    <div id="wrapper">
+        <!-- main with aside + section -->
+        <main>
+            <!-- aside with top + bottom -->
+            <aside class="sidebar">
+                <!-- top with logo + menu + playlist -->
+                <div class="sidebar-top">
+                    <!-- logo -->
+                    <div class="logo">
+                        <img class="hidden-xs" src="./images/logo.svg" alt="">
+                        <img class="visible-xs" src="./images/logo-small.svg" alt="">
+                    </div>
+                    <!-- /logo -->
+
+                    <!-- menu -->
+                    <ul class="menu">
+                        <li>
+                            <img src="./images/home.svg" alt="">
+                            <span class="hidden-xs">Home</span>
+                        </li>
+
+                        <li>
+                            <img src="./images/search.svg" alt="">
+                            <span class="hidden-xs">Cerca</span>
+                        </li>
+
+                        <li>
+                            <img src="./images/libreria.svg" alt="">
+                            <span class="hidden-xs">La tua libreria</span>
+                        </li>
+                    </ul>
+                    <!-- /menu -->
+
+                    <!-- playlist -->
+                    <div class="playlist hidden-xs">
+                        <h4>
+                            PLAYLIST
+                        </h4>
+
+                        <div class="create-playlist">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            <span>Crea Playlist</span>
+                        </div>
+
+                        <ul>
+                            <li>
+                                Nome Playlist
+                            </li>
+
+                            <li>
+                                Nome Playlist
+                            </li>
+
+                            <li>
+                                Nome Playlist
+                            </li>
+
+                            <li>
+                                Nome Playlist
+                            </li>
+
+                            <li>
+                                Nome Playlist
+                            </li>
+
+                            <li>
+                                Nome Playlist
+                            </li>
+
+                            <li>
+                                Nome Playlist
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /playlist -->
+                </div>
+                <!-- /top -->
+
+                <!-- bottom with download + user -->
+                <div class="sidebar-down">
+                    <div class="download">
+                        <img src="./images/download.svg" alt="">
+
+                        <h5 class="hidden-xs">
+                            Installa app
+                        </h5>
+                    </div>
+
+                    <div class="user">
+                        <img src="./images/profile.svg" alt="">
+
+                        <h4 class="hidden-xs">
+                            John Doe
+                        </h4>
+                    </div>
+                </div>
+                <!-- /bottom -->
+            </aside>
+            <!-- /aside -->
+
+            <!-- section with button + albums -->
+            <section class="central-section">
+                <!-- button -->
+                <div class="upgrade">
+                    <a href="">
+                        EFFETTUA L'UPGRADE
+                    </a>
+                </div>
+                <!-- /button -->
+
+                <!-- albums -->
+                <div class="album">
+                    <!-- navbar -->
+                    <nav>
+                        <ul>
+                            <li>
+                                in evidenza
+                            </li>
+
+                            <li>
+                                podcast
+                            </li>
+
+                            <li>
+                                classifiche
+                            </li>
+
+                            <li>
+                                generi e mood
+                            </li>
+
+                            <li>
+                                nuove uscite
+                            </li>
+
+                            <li>
+                                scopri
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /navbar -->
+
+                    <!-- recent with 6 boxes -->
+                    <div class="album-section">
+                        <h2>
+                            Recently played
+                        </h2>
+
+                        <div class="flex-wrap">
+                            <!-- box 1 -->
+                            <div class="box">
+                                <div class="cover">
+                                    <img src="./images/metal_lifting.jpg" alt="">
+                                    <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                                </div>
+
+                                <h3>
+                                    Heavy Metal
+                                </h3>
+
+                                <span>Subtitle</span>
+                            </div>
+                            <!-- /box 1 -->
+
+                            <!-- box 2 -->
+                            <div class="box">
+                                <div class="cover">
+                                    <img src="./images/stranger.jpeg" alt="">
+                                    <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                                </div>
+
+                                <h3>
+                                    Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)
+                                </h3>
+
+                                <span>Kyle Dixon & Micheal Stein</span>
+                            </div>
+                            <!-- /box 2 -->
+
+                            <!-- box 3 -->
+                            <div class="box">
+                                <div class="cover">
+                                    <img src="./images/aquietplace.jpeg" alt="">
+                                    <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                                </div>
+
+                                <h3>
+                                    A quiet place
+                                </h3>
+
+                                <span>Subtitle</span>
+                            </div>
+                            <!-- /box 3 -->
+
+                            <!-- box 4 -->
+                            <div class="box">
+                                <div class="cover">
+                                    <img src="./images/split.jpeg" alt="">
+                                    <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                                </div>
+
+                                <h3>
+                                    Split
+                                </h3>
+
+                                <span>Subtitle</span>
+                            </div>
+                            <!-- /box 4 -->
+
+                            <!-- box 5 -->
+                            <div class="box">
+                                <div class="cover">
+                                    <img src="./images/cure.jpeg" alt="">
+                                    <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                                </div>
+
+                                <h3>
+                                    A cure for wellness
+                                </h3>
+
+                                <span>Subtitle</span>
+                            </div>
+                            <!-- /box 5 -->
+
+                            <!-- box 6 -->
+                            <div class="box">
+                                <div class="cover">
+                                    <img src="./images/sinister.jpeg" alt="">
+                                    <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                                </div>
+
+                                <h3>
+                                    Sinister
+                                </h3>
+
+                                <span>Subtitle</span>
+                            </div>
+                            <!-- /box 6 -->
+                        </div>
+                    </div>
+                    <!-- /recent -->
+
+                    <!-- creation with 2 boxes -->
+                    <div class="album-section">
+                        <h2>
+                            Creato per John Doe
+                        </h2>
+
+                        <span>Più ascolti, più accurati saranno i suggerimenti.</span>
+
+                        <div class="flex-wrap">
+                            <!-- box 1 -->
+                            <div class="box">
+                                <img src="./images/radar.jpeg" alt="">
+
+                                <h3>
+                                    Release Radar
+                                </h3>
+                            </div>
+                            <!-- /box 1 -->
+
+                            <!-- box 2 -->
+                            <div class="box">
+                                <img src="./images/mixdaily.jpeg" alt="">
+
+                                <h3>
+                                    Daily Mix 1
+                                </h3>
+                            </div>
+                            <!-- /box 2 -->
+                        </div>
+                    </div>
+                    <!-- /creation -->
+
+                    <!-- popular with 2 boxes -->
+                    <div class="album-section">
+                        <h2>
+                            Artisti più popolari
+                        </h2>
+
+                        <span>Più ascolti, più accurati saranno i suggerimenti.</span>
+
+                        <div class="flex-wrap">
+                            <!-- box 1 -->
+                            <div class="box">
+                                <img src="./images/youg.jpeg" alt="">
+
+                                <h3>
+                                    Release Radar
+                                </h3>
+                            </div>
+                            <!-- /box 1 -->
+
+                            <!-- box 2 -->
+                            <div class="box">
+                                <img src="./images/einaudi.jpeg" alt="">
+
+                                <h3>
+                                    Daily Mix 1
+                                </h3>
+                            </div>
+                            <!-- /box 2 -->
+                        </div>
+                    </div>
+                    <!-- /popular -->
+                </div>
+                <!-- /albums -->
+            </section>
+            <!-- /section -->
+        </main>
+        <!-- /main -->
+
+        <!-- footer fixed -->
+        <footer>
+            <!-- left -->
+            <div class="side left">
+                <img src="./images/sinister.jpeg" alt="">
+
+                <div class="song-played hidden-xs">
+                    <h4>
+                        Sinister
+                    </h4>
+
+                    <span>Brano Nome</span>
+                </div>
+
+                <div class="icons hidden-xs">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <i class="fa fa-folder-o" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!-- /left -->
+
+            <!-- center -->
+            <div class="center">
+                <div class="buttons">
+                    <i class="fa fa-random" aria-hidden="true"></i>
+                    <i class="fa fa-step-backward" aria-hidden="true"></i>
+                    <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                    <i class="fa fa-step-forward" aria-hidden="true"></i>
+                    <i class="fa fa-repeat" aria-hidden="true"></i>
+                </div>
+
+                <div class="reproduction">
+                    <span>0:25</span>
+
+                    <div class="bar-player">
+                        <span class="bar-1"></span>
+                        <span class="bar-2">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                        </span>
+                    </div>
+
+                    <span>4:35</span>
+                </div>
+            </div>
+            <!-- /center -->
+
+            <!-- right -->
+            <div class="side right">
+                <i class="fa fa-list-ul hidden-xs" aria-hidden="true"></i>
+                <i class="fa fa-television hidden-xs" aria-hidden="true"></i>
+                <i class="fa fa-volume-up hidden-xs" aria-hidden="true"></i>
+
+                <div class="bar-player">
+                    <span class="bar-1"></span>
+                    <span class="bar-2">
+                        <i class="fa fa-circle" aria-hidden="true"></i>
+                    </span>
+                </div>
+            </div>
+            <!-- /right -->
+        </footer>
+        <!-- /footer -->
+    </div>
+    <!-- /wrapper -->
+
+</body>
+</html>
